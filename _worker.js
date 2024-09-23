@@ -274,6 +274,7 @@ export default {
                         });
 
                     default:
+			return "hello world";
                         // return new Response('Not found', { status: 404 });
                         url.hostname = 'www.speedtest.net';
                         url.protocol = 'https:';
